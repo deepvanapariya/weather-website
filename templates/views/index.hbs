@@ -1,0 +1,28 @@
+
+<html> 
+<head>
+   
+    <title>Home</title>
+    <link rel="icon" type="icon"  href="/web-server/public/img/p2.png"/>
+    <link rel="stylesheet" href="./css/style.css"/>
+</head>
+<body>
+    <div class="main-content"> 
+          {{>header}} 
+          <p>use this site to get your weather!</p>
+
+          <form action="">
+             <input type="text" placeholder="Location">
+            <button>Serch</button>
+          </form>
+          <p id="message-1"> </p>
+          <p id="message-2"> </p>
+
+    </div>
+    
+
+        {{>footer}}
+<script src="./js/app.js"></script>
+
+</body>
+</html>
